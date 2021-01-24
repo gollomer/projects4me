@@ -11,9 +11,6 @@ namespace Gaia\Libraries\Meta;
  * therefore we are not including the phalcon-devtool in the application bootstrap using
  * dependency injector to help avoid extra load
  */
-require_once APP_PATH.'/vendor/phalcon/phalcon-devtools/scripts/Phalcon/Mvc/Model/Migration.php';
-require_once APP_PATH.'/vendor/phalcon/phalcon-devtools/scripts/Phalcon/Migrations.php';
-
 use Phalcon\Db\Column;
 use Phalcon\Db\Index;
 use Phalcon\Mvc\Model\Migration as PhalconMigration;

@@ -6,14 +6,13 @@
     }
   ],
   "require": {
-    "php": "7.*",
+    "php": "7.2.*",
+    "ext-phalcon": "*",
     "ext-imagick": "*",
     "wisembly/elephant.io": "~3.0",
-    "phalcon/incubator": "^3.1.1",
-    "phpdocumentor/phpdocumentor":"2.*",
-    "phpunit/phpunit": "6.1.*",
+    "phalcon/incubator": "3.4.*",
     "bshaffer/oauth2-server-php": "~1.8",
-    "phalcon/devtools": ">=3.1.1",
+    "phalcon/devtools": "3.4.*",
     "elasticsearch/elasticsearch": "~6.0",
     "monolog/monolog": "~1.0"
   }

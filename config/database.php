@@ -38,6 +38,10 @@
 
 $config['database'] = array(
     "adapter"   => "Mysql",
+/*    "host"      => "10.138.0.2",
+    "username"  => "hammad",
+    "password"  => "hammadhassan",
+*/
     "host"      => "localhost",
     "username"  => "root",
     "password"  => "1",
