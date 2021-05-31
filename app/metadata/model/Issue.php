@@ -283,7 +283,8 @@ $models['Issue'] = array(
         'dateModifiedBehavior',
         'createdUserBehavior',
         'modifiedUserBehavior',
-        'softDeleteBehavior'
+        'softDeleteBehavior',
+        'utf8Behavior'
     ),
 );
 

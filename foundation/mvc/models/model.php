@@ -70,7 +70,7 @@ class Model extends PhalconModel
      * @var $newId
      */
     public $newId;
-
+    public $data;
     /**
      * This function is used in order to load the different behaviors that this model is
      * set to use.
@@ -394,9 +394,10 @@ class Model extends PhalconModel
         $this->_query = $this->setQuery($this->_query,$params);
 
         // process ACL and other behaviors before executing the query
-        $data = $this->_query->execute();
+        $this->data = $this->_query->execute();
+        $this->fireEvent("afterFetch");
         $this->_query = null;
-        return $data;
+        return $this->data;
     }
 
     /**

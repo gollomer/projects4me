@@ -38,7 +38,6 @@
 
 $config['database'] = array(
     'adapter'     => 'Mysql',
-    'host'        => 'localhost',
     'username'    => 'nouman',
     'password'    => 'Rolus889',
     'dbname'      => 'pr4m',
